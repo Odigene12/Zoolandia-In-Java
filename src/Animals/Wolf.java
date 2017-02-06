@@ -45,13 +45,18 @@ public class Wolf extends Animal {
 
     public boolean isAlpha;
 
+
+/*The @Override annotation tells the compiler that the method under it is supposed to override the same method from the parent class in this case. @Override can also be used within the same class.*/
+
+    //Created an overriding method for the .sound method inherited from the parent class Animal
     @Override
-    public String sound(){
+    public String sound() {
         return "howl";
     }
 
+    //Created an overriding method for the .numberOfKids method inherited from the parent class Animal
     @Override
-    public int numberOfKids(){
+    public int numberOfKids() {
         return 5;
     }
 
