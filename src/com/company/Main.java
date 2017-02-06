@@ -43,5 +43,10 @@ public class Main {
         System.out.println("I have a Cat named " + myCatName + " who is " + myCatAge + " years old, and has " + myCatTeethNumber + " number of teeth that is only as interesting as his " + myCatFurColor + " fur");
 
         System.out.println("I also have a Wolf named " + myWolfName + " who is " + myWolfAge + " years old, and has the most beautiful " + myWolfEyeColor + " eyes. He has a pack that is " + myWolfPackSize + " in size. Each of them have " + myWolfNumberOfLegs + " legs.");
+
+        System.out.println("My wolf has " + myWolf.numberOfKids() + " kids");
+        System.out.println("My wolf goes " + myWolf.sound() + " at the moon");
+        System.out.println("My cat has " + myCat.numberOfKids() + " kids");
+        System.out.println("My cat goes " +myCat.sound());
     }
 }

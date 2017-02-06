@@ -45,4 +45,14 @@ public class Wolf extends Animal {
 
     public boolean isAlpha;
 
+    @Override
+    public String sound(){
+        return "howl";
+    }
+
+    @Override
+    public int numberOfKids(){
+        return 5;
+    }
+
 }

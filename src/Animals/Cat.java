@@ -44,4 +44,14 @@ public class Cat extends Animal {
     public void setHouseCat(boolean houseCat) {
         this.houseCat = houseCat;
     }
+
+    @Override
+    public String sound(){
+        return "meow";
+    }
+
+    @Override
+    public int numberOfKids() {
+        return 25;
+    }
 }
