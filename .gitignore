@@ -1,0 +1,5 @@
+# Ignore IntelliJ project files
+.idea
+*.iml
+# Ignore compiled Java class files
+target/
